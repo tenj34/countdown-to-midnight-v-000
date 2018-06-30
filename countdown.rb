@@ -8,5 +8,4 @@ def countdown(number)
     --counter
   end
   return "HAPPY NEW YEAR"
-
 end
