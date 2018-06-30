@@ -12,4 +12,11 @@ def countdown(number)
   end
 end
 
-def countdown_with_sleep
+def countdown_with_sleep(number)
+    counter = number
+    until counter == 0
+      puts "HAPPY NEW YEAR!"
+      counter -= 1
+    end
+  end
+end
